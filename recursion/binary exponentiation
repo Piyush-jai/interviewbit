@@ -1,3 +1,7 @@
+/*binary exponentiation is used in power calculation
+Time complexity= O(logn)
+*/
+
 #include <stdio.h>
 int binary_exponen(int a,int p)
 {
