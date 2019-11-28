@@ -1,0 +1,27 @@
+#include <stdio.h>
+int binary_exponen(int a,int p)
+{
+    if(a==0)
+    return 0;
+    if(p==0)
+    return 1;
+   int ans= binary_exponen(a,p/2);
+   if(p%2==0)
+   return ans*ans;
+   else
+   return ans*ans*a;
+}
+
+int main()
+{
+    int a=3, p=4;
+    if(a==0  && p==0)
+    {
+        printf("not define");
+    }
+    else
+    {
+  int result=  binary_exponen(a,p);
+printf("%d",result);
+    }return 0;
+}
