@@ -1,4 +1,5 @@
 #implementation of power function
+# Time complexity =O(p)
 
 #include<stdio.h>
 {
