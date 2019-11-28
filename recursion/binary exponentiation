@@ -1,5 +1,5 @@
 /*binary exponentiation is used in power calculation
-Time complexity= O(logn)
+Time complexity= O(logp)
 */
 
 #include <stdio.h>
